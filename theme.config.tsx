@@ -14,11 +14,12 @@ const config: DocsThemeConfig = {
   banner: {
     dismissible: true,
     key: 'banner-active-development',
-    text: (
-      <div>
-        <strong>Spark2</strong> is in active development.
-      </div>
-    ),
+    // text: (
+    //   <div>
+    //     <strong>Spark2</strong> is in active development.
+    //   </div>
+    // ),
+    
   },
   sidebar: {
     toggleButton: true,
@@ -32,8 +33,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/shubham-0819/mind-archive',
   footer: {
-    
-    text: 'MIT License © 2024',
+    // text: 'MIT License © 2024',
   },
 }
 
